@@ -1,0 +1,214 @@
+{
+    "users": {
+        "smith": {
+            "password": "11111111",
+            "role": "traveller",
+            "profile": "",
+            "status": "Active"
+        },
+        "sally": {
+            "password": "aaaaaaaa",
+            "role": "traveller",
+            "profile": "",
+            "status": "Active"
+        },
+        "ddddd": {
+            "password": "dddddddd",
+            "role": "traveller",
+            "profile": "",
+            "status": "Active"
+        },
+        "sue zen": {
+            "password": "87654321",
+            "role": "traveller",
+            "status": "Active",
+            "profile": {
+                "name": "sue zen",
+                "email": "suezen@gmail.com"
+            }
+        },
+        "new_user": {
+            "password": "newpassword",
+            "role": "traveller",
+            "status": "Active",
+            "profile": {
+                "name": "new user",
+                "email": "newuser@gmail.com"
+            }
+        },
+        "HelloKitty": {
+            "password": "1234",
+            "role": "merchant",
+            "id": 1,
+            "status": "Active"
+        },
+        "Dune": {
+            "password": "1234",
+            "role": "merchant",
+            "id": 2,
+            "status": "Active"
+        },
+        "Rick": {
+            "password": "1234",
+            "role": "merchant",
+            "id": 3,
+            "status": "Active"
+        },
+        "Rogue": {
+            "password": "1234",
+            "role": "merchant",
+            "id": 4,
+            "status": "Active"
+        },
+        "Roku": {
+            "password": "1234",
+            "role": "merchant",
+            "id": 5,
+            "status": "Active"
+        },
+        "Carl": {
+            "password": "1234",
+            "role": "merchant",
+            "id": 6,
+            "status": "Active"
+        }
+    },
+    "services": {
+        "1": {
+            "merchant_id": 1,
+            "merchant_name": "HelloKitty",
+            "name": "KLCC tour",
+            "description": "Explore the KLCC park, visit the famous aquarium, eat delicious local food.",
+            "price": "RM 200.00",
+            "dates": [
+                "2024-06-24"
+            ],
+            "max_customers": 20,
+            "current_customers": 0,
+            "hotel_name": "",
+            "notable_restaurants": [
+                "Aliff",
+                "Ho Lai Tong"
+            ],
+            "duration": 1
+        },
+        "2": {
+            "merchant_id": 2,
+            "merchant_name": "Dune",
+            "name": "Batu Caves tour",
+            "description": "Explore the glorious Batu Caves, History expert tour guide Ho Lee Fat professional service, experience traditional Chinese cuisine in well-known Chinese restaurant.",
+            "price": "RM 200.00",
+            "dates": [
+                "2024-06-30"
+            ],
+            "max_customers": 30,
+            "current_customers": 0,
+            "hotel_name": "",
+            "notable_restaurants": [
+                "Tong Kee Restaurant",
+                "China Fried Chicken(CFC)."
+            ],
+            "duration": 1
+        },
+        "3": {
+            "merchant_id": 2,
+            "merchant_name": "Dune",
+            "name": "Luxury experience in Bukit Bintang",
+            "description": "Have a luxurious experience in world-renowned 5-star hotel in the heart of Kuala Lumpur.",
+            "price": "RM 2500.00",
+            "dates": [
+                "2024-07-17",
+                "2024-07-18"
+            ],
+            "max_customers": 10,
+            "current_customers": 0,
+            "hotel_name": "Shangri-La Hotel",
+            "notable_restaurants": [
+                "Nobu",
+                "Tamarind Spring"
+            ],
+            "duration": 2
+        },
+        "4": {
+            "merchant_id": 3,
+            "merchant_name": "Rick",
+            "name": "New Service",
+            "description": "New service description.",
+            "price": "300.00",
+            "dates": [
+                "2024-07-01"
+            ],
+            "duration": 1,
+            "max_customers": 10,
+            "current_customers": 0,
+            "hotel_name": "New Hotel",
+            "notable_restaurants": [
+                "New Restaurant"
+            ]
+        }
+    },
+    "triprecommendations": {
+        "destinations": [
+            {
+                "name": "KLCC Twin Tower",
+                "description": "Embark your journey in the world's tallest twin towers, and experience the marvels of city landscape with lots of interesting features waiting ahead.",
+                "attractions": [
+                    "Skybridge and Observation Deck",
+                    "Suria KLCC Shopping Mall",
+                    "Petrosains, The Discovery Centre",
+                    "Aquaria KLCC"
+                ]
+            },
+            {
+                "name": "Batu Caves",
+                "description": "Visit the iconic Batu Caves, a limestone hill with a series of caves and cave temples, and enjoy the vibrant and colorful surroundings.",
+                "attractions": [
+                    "Cave Temples",
+                    "Murugan Statue",
+                    "Dark Cave",
+                    "Ramayana Cave"
+                ]
+            },
+            {
+                "name": "Merdeka Square",
+                "description": "Explore the historical heart of Kuala Lumpur at Merdeka Square, where Malaysia declared its independence. The area is surrounded by colonial buildings and offers a glimpse into the country's rich history.",
+                "attractions": [
+                    "Sultan Abdul Samad Building",
+                    "Royal Selangor Club",
+                    "St. Mary's Cathedral",
+                    "Kuala Lumpur City Gallery"
+                ]
+            }
+        ],
+        "promotions": [
+            {
+                "promo_code": "KLFOODIEDELIGHT25",
+                "title": "Kuala Lumpur Foodie Delight",
+                "description": "Indulge in the culinary delights of Kuala Lumpur with a 10% discount on your dining experience this October. Use promo code KLFOODIEDELIGHT25 to savor the flavors!",
+                "discount": "10% off dining",
+                "valid_month": "October 2024"
+            },
+            {
+                "promo_code": "KLSPA12",
+                "title": "Relax in Kuala Lumpur",
+                "description": "Unwind with a relaxing spa treatment in Kuala Lumpur with a 15% discount this November. Use promo code KLSPA12 for a rejuvenating experience!",
+                "discount": "15% off spa treatments",
+                "valid_month": "November 2024"
+            },
+            {
+                "promo_code": "KLSHOPPINGSPREE77",
+                "title": "Kuala Lumpur Shopping Spree",
+                "description": "Enjoy a shopping spree in Kuala Lumpur with an 8% discount on your purchases this March. Use promo code KLSHOPPINGSPREE77 and shop till you drop!",
+                "discount": "8% off purchases",
+                "valid_month": "March 2024"
+            },
+            {
+                "promo_code": "KLTOUR69",
+                "title": "Explore Kuala Lumpur",
+                "description": "Discover the vibrant city of Kuala Lumpur with a 20% discount on city tours. Use promo code KLTOUR69 for an unforgettable adventure!",
+                "discount": "20% off city tours",
+                "valid_month": "April 2024"
+            }
+        ]
+    }
+}
